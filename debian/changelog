@@ -1,0 +1,11 @@
+orangepi-firmware (20230330.git034127ab-2) jammy; urgency=medium
+
+  * debian: fix postinst script
+
+ -- Joshua Riek <jjriek@verizon.net>  Sat, 15 Apr 2023 15:54:34 -0400
+
+orangepi-firmware (20230330.git034127ab-1) jammy; urgency=medium
+
+  * debian: package orangepi firmware
+
+ -- Joshua Riek <jjriek@verizon.net>  Fri, 14 Apr 2023 16:16:20 -0400

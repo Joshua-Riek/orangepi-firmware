@@ -1,0 +1,17 @@
+Source: orangepi-firmware
+Section: kernel
+Priority: optional
+Maintainer: Joshua Riek <jjriek@verizon.net>
+Standards-Version: 4.5.0
+Build-Depends: debhelper, rsync
+Homepage: https://github.com/Joshua-Riek/ubuntu-orange-pi5/
+
+Package: orangepi-firmware
+Architecture: all
+Multi-Arch: foreign
+Priority: optional
+Depends: ${misc:Depends}
+Replaces: linux-firmware, firmware-brcm80211, firmware-ralink, firmware-samsung, firmware-realtek, orangepi-firmware
+Description: Firmware for Linux kernel drivers
+ This package provides firmware used by Linux kernel drivers.
+
